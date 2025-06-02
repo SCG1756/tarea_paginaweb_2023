@@ -1,0 +1,40 @@
+$(document).ready(function() {
+  // Manejador de envío de formulario de contacto
+  $('#contact-form').submit(function(event) {
+    event.preventDefault();
+    var name = $('#name').val();
+    var email = $('#email').val();
+    var message = $('#message').val();
+    // Validación de campos
+    if (name == "" || email == "" || message == "") {
+      alert("Por favor complete todos los campos.");
+    } else {
+      // Envío de correo electrónico o almacenamiento en base de datos
+      alert("Gracias por su mensaje. Nos pondremos en contacto con usted lo antes posible.");
+      $('#name').val("");
+      $('#email').val("");
+      $('#message').val("");
+    }
+  });
+  
+  // Manejador de envío de formulario de registro
+  $('#register-form').submit(function(event) {
+    event.preventDefault();
+    var username = $('#username').val();
+    var password = $('#password').val();
+    var confirmPassword = $('#confirm-password').val();
+    // Validación de campos
+    if (username == "" || password == "" || confirmPassword == "") {
+      alert("Por favor complete todos los campos.");
+    } else if (password != confirmPassword) {
+      alert("Las contraseñas no coinciden.");
+    } else {
+      // Almacenamiento en base de datos o registro en sistema de autenticación
+      alert("Registro exitoso. Bienvenido, " + username + "!");
+      $('#username').val("");
+      $('#password').val("");
+      $('#confirm-password').val("");
+    }
+  });
+});
+
