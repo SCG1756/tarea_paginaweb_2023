@@ -1,2 +1,18 @@
-# tarea_paginaweb_2023
-Website created in 2023 as part of an assignment.
+# 🌐 Proyecto Web - Tarea 2023
+
+Este proyecto fue desarrollado en el año 2023 como parte de una asignación académica. Consiste en un sitio web básico creado para practicar los fundamentos de maquetación y diseño web.
+
+## 📌 Características
+*   **HTML5**: Estructura de las páginas de inicio, contacto y registro.
+*   **CSS3**: Hoja de estilos básica para el diseño visual.
+
+## 🚀 Ver el proyecto
+Puedes ver la página funcionando aquí:
+[Ver página en vivo](https://scg1756.github.io/tarea_paginaweb_2023/)
+
+## 📂 Estructura del proyecto
+*   `index.html`: Página principal.
+*   `contacto.html`: Formulario de contacto.
+*   `registro.html`: Formulario de registro.
+*   `css/`: Carpeta con los estilos.
+*   `img/`: Carpeta con las imágenes y recursos.
