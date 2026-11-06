@@ -6,10 +6,6 @@ Este proyecto fue desarrollado en el año 2023 como parte de una asignación aca
 *   **HTML5**: Estructura de las páginas de inicio, contacto y registro.
 *   **CSS3**: Hoja de estilos básica para el diseño visual.
 
-## 🚀 Ver el proyecto
-Puedes ver la página funcionando aquí:
-[Ver página en vivo](https://scg1756.github.io/tarea_paginaweb_2023/)
-
 ## 📂 Estructura del proyecto
 *   `index.html`: Página principal.
 *   `contacto.html`: Formulario de contacto.
